@@ -1,4 +1,4 @@
-# Camera Dust in Roblox!
+# Camera Dirt in Roblox!
 
 Imagine bringing your game to life with an immersive atmosphere that responds dynamically to player actions and environmental changes. This script elevates the visual fidelity of your Roblox games to a whole new level! This innovative graphics technology seen in Unreal Engine, and Unity combines seamlessly with volumetric lighting, adding a layer of cinematic realism that enhances the player's experience. It captures the interplay between light and particles on the camera lens, creating a dynamic and engaging visual that reacts to both static and moving light sources. Whether you're developing an intense action game or a serene cinematic landscape, This is the perfect tool to enrich your game environment and captivate your audience.
 
@@ -16,7 +16,7 @@ demonstration of camera reacting to a `Static` light
 ![md-demonstrate-lights-movement](https://github.com/user-attachments/assets/846108f6-07fc-4621-a0bd-05b7cdf8bb67)
 
 # How do I use this?
-To start using this, follow these steps to set up and integrate it into your Roblox game. Begin by calling the `init` function to initialize the required components. Next, customize the behavior of the textures by writing your preferences into the script. Once your preferences are set, call the `draw` function to generate the initial dust textures.
+To start using this, follow these steps to set up and integrate it into your Roblox game. Begin by calling the `init` function to initialize the required components. Next, customize the behavior of the textures by writing your preferences into the script. Once your preferences are set, call the `draw` function to generate the initial dirt textures.
 
 After setting up the textures, set the Parent of `gui_output` to an appropriate UI container within your game. Finally, implement the `step` function within your render loop to ensure that all lighting and texture updates are processed every frame, maintaining dynamic interaction with both static and dynamic light sources in your scene.
 
@@ -37,7 +37,7 @@ After setting up the textures, set the Parent of `gui_output` to an appropriate 
 ## Methods
 `init` (): creates all instances that are used within the script.
 
-`draw` (): creates every dust texture based on `dust_draw_count`.
+`draw` (): creates every dirt texture based on `dust_draw_count`.
 
 `new_Dynamic` (Light): inserts a `Dynamic` Light into its registry.
 
