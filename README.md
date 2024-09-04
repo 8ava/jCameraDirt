@@ -33,7 +33,7 @@ After setting up the textures, set the Parent of `gui_output` to an appropriate 
 
 `lens_texture_addresses`: array of image ids that can be replaced.
 
-`gui_output`: nil be default. on `init`, it becomes an unparented ScreenGui. this is where all textures are drawn.
+`gui_output`: nil by default. on `init`, it becomes an unparented ScreenGui. this is where all textures are drawn.
 ## Methods
 `init` (): creates all instances that are used within the script.
 
